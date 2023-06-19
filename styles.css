@@ -1,0 +1,16 @@
+.flex-container {
+  height: 100vh; /* Высота контейнера равна высоте экрана */
+  display: flex; /* Включаем Flexbox Режим */
+  flex-direction: row; /* Распологаем элементы в строку */
+  flex-wrap: wrap; /* Разрешаем перенос элементов */
+  justify-content: space-between; /* Распределяем элементы по основной оси */
+  align-items: center; /* Выравниваем элементы по поперечной оси */
+  align-content: space-between; /* Выравнивает по вертикали контент */
+
+  .flex-element {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    margin: 10px;
+  }
+}
